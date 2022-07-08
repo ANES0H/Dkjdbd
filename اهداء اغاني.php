@@ -6,7 +6,7 @@
 كتابتي @d666d6 .
 فناتي @SouRcePaTaR
 */
-$token = "5455672175:AAGwnwlQUM4Q-MfoDBF4VHT5XDUtve4UKHM";//توكن
+$token = "5455672175:AAGwnwlQUM4Q-MfoDBF4VHT5XDUtve4UKHM:";//توكن
 define('API_KEY',$token);
 echo "https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME'];
 function bot($method,$datas=[]){
