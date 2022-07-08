@@ -6,7 +6,7 @@
 كتابتي @d666d6 .
 فناتي @SouRcePaTaR
 */
-$token = "000000:";//توكن
+$token = "5455672175:AAGwnwlQUM4Q-MfoDBF4VHT5XDUtve4UKHM";//توكن
 define('API_KEY',$token);
 echo "https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME'];
 function bot($method,$datas=[]){
@@ -21,7 +21,7 @@ $message_id = $message->message_id ?? $update->callback_query->message->message_
 $name = $message->from->first_name ?? $update->callback_query->from->first_name;
 $username = $message->from->username;
 $data = $update->callback_query->data;
-$admin = "1890844234";//ايدي
+$admin = "5519514436";//ايدي
 mkdir("data");
 /*
 ملف بوت اهداء اغاني .
